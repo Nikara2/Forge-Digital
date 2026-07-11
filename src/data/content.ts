@@ -3,11 +3,11 @@
 export const brand = "Forge Digital";
 
 export const contact = {
-  email: "ramzinikiema18@gmail.com",
+  email: ["ramzinikiema18@gmail.com", "Briceilboudo388@gmail.com"], 
   team: [
+    { name: "ILBOUDO Relwendé Brice", phone: "74976667" },
     { name: "NIKIEMA Ramzi", phone: "65605775" },
     { name: "ZINA Abdoul Alim", phone: "05156505" },
-    { name: "ILBOUDO Brice", phone: "74976667" },
   ],
 };
 

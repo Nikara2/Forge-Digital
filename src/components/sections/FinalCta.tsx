@@ -3,6 +3,9 @@ import { Reveal } from "@/components/ui/Reveal";
 import { contact } from "@/data/content";
 
 export function FinalCta() {
+  const emailList = Array.isArray(contact.email) ? contact.email : [contact.email];
+  const mailtoHref = `mailto:${emailList.join(",")}`;
+
   return (
     <section id="contact" className="py-32 md:py-40 px-6 md:px-10 relative overflow-hidden">
       <div className="max-w-[1440px] mx-auto text-center relative z-10">
@@ -20,13 +23,13 @@ export function FinalCta() {
         </Reveal>
         <Reveal delay={0.2} className="flex flex-col md:flex-row items-center justify-center gap-6 mb-16">
           <a
-            href={`mailto:${contact.email}`}
+            href={mailtoHref}
             className="bg-white text-black px-12 py-5 rounded-full text-lg font-bold hover:scale-105 transition-transform duration-300"
           >
             Start Consultation
           </a>
           <a
-            href={`mailto:${contact.email}`}
+            href={mailtoHref}
             className="text-white border border-white/20 px-12 py-5 rounded-full text-lg font-bold hover:bg-white/5 transition-all"
           >
             Schedule a Meeting
@@ -36,10 +39,10 @@ export function FinalCta() {
         <Reveal delay={0.3}>
           <div className="max-w-3xl mx-auto bg-surface border border-white/5 rounded-[32px] p-8 md:p-10">
             <a
-              href={`mailto:${contact.email}`}
+              href={mailtoHref}
               className="inline-flex items-center gap-2 text-accent font-semibold hover:text-white transition-colors mb-8"
             >
-              <Mail className="w-4 h-4" /> {contact.email}
+              <Mail className="w-4 h-4" /> {emailList.join(" / ")}
             </a>
             <div className="grid sm:grid-cols-3 gap-6 pt-8 border-t border-white/5">
               {contact.team.map((member) => (
