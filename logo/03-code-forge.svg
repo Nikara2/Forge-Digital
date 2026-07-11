@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <path
+    d="M78,55 L28,120 L78,185"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M162,55 L212,120 L162,185"
+    fill="none"
+    stroke="#FFFFFF"
+    stroke-width="16"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  />
+  <path
+    d="M120,70
+       C138,95 148,110 140,132
+       C136,142 126,148 118,148
+       C106,148 96,140 96,126
+       C96,116 102,112 106,104
+       C104,116 110,120 114,120
+       C118,120 120,116 118,110
+       C116,100 116,88 120,70 Z"
+    fill="#00E5A8"
+  />
+</svg>

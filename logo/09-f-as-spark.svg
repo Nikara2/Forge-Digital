@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 100">
+  <defs>
+    <filter id="fSparkGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" />
+    </filter>
+  </defs>
+  <g transform="translate(6,16)">
+    <g filter="url(#fSparkGlow)" opacity="0.55">
+      <path d="M10,8 L27,1 L39,9 L29,19 L10,17 Z" fill="#00E5A8" />
+      <path d="M11,25 L28,21 L37,29 L27,36 L10,33 Z" fill="#00E5A8" />
+      <path d="M7,52 L4,30 L1,9 L9,0 L14,9 L16,30 L13,52 Z" fill="#00E5A8" />
+    </g>
+    <path d="M10,8 L27,1 L39,9 L29,19 L10,17 Z" fill="#00E5A8" opacity="0.85" />
+    <path d="M11,25 L28,21 L37,29 L27,36 L10,33 Z" fill="#00E5A8" opacity="0.9" />
+    <path d="M7,52 L4,30 L1,9 L9,0 L14,9 L16,30 L13,52 Z" fill="#00E5A8" />
+  </g>
+  <text
+    x="60"
+    y="68"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="800"
+    font-size="72"
+    letter-spacing="-2"
+    fill="#FFFFFF"
+  >orge Digital<tspan fill="#00E5A8">.</tspan></text>
+</svg>

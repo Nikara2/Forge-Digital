@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <circle cx="120" cy="120" r="112" fill="#0a0a0a" />
+  <circle cx="120" cy="120" r="112" fill="none" stroke="#00E5A8" stroke-width="4" />
+  <circle cx="120" cy="120" r="96" fill="none" stroke="#00E5A8" stroke-width="1" opacity="0.35" />
+  <text
+    x="120"
+    y="148"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="900"
+    font-size="104"
+    letter-spacing="-4"
+    fill="#FFFFFF"
+  >FD</text>
+  <rect x="78" y="160" width="84" height="6" fill="#00E5A8" />
+</svg>

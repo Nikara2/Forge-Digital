@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 200">
+  <g transform="translate(-15,20) scale(0.6)">
+    <polygon points="120,210 68,112 152,96 108,150" fill="#00E5A8" opacity="0.35" />
+    <polygon points="120,210 94,82 162,118 114,142" fill="#00E5A8" opacity="0.65" />
+    <polygon points="120,210 112,58 150,128" fill="#00E5A8" />
+  </g>
+  <text
+    x="110"
+    y="126"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="800"
+    font-size="72"
+    letter-spacing="-2"
+    fill="#FFFFFF"
+  >Forge Digital<tspan fill="#00E5A8">.</tspan></text>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240">
+  <polygon
+    points="120,20 207,70 207,170 120,220 33,170 33,70"
+    fill="#0a0a0a"
+    stroke="#FFFFFF"
+    stroke-width="4"
+  />
+  <polygon
+    points="120,36 192.7,78 192.7,162 120,204 47.3,162 47.3,78"
+    fill="none"
+    stroke="#00E5A8"
+    stroke-width="1.5"
+    opacity="0.5"
+  />
+  <text
+    x="120"
+    y="158"
+    text-anchor="middle"
+    font-family="Arial, Helvetica, sans-serif"
+    font-weight="900"
+    font-size="108"
+    fill="#00E5A8"
+  >F</text>
+</svg>
